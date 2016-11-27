@@ -1,5 +1,5 @@
 {
-  "name": "goldeagle/WxPayAPI",
+  "name": "goldeagle/wx-pay-api",
   "description": "基于微信官方PHP SDK V3修改的API SDK",
   "minimum-stability": "alpha",
   "license": "MIT",
@@ -8,5 +8,8 @@
       "name": "goldeagle",
       "email": "1308362@gmail.com"
     }
-  ]
+  ],
+  "require" : {
+	  "php" : ">=5.4"
+  }
 }
