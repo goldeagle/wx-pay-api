@@ -1,5 +1,6 @@
 <?php
 namespace wxpay;
+
 use wxpay\database\WxPayJsApiPay;
 
 /**

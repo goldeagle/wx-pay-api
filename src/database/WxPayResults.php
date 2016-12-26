@@ -1,5 +1,6 @@
 <?php
 namespace wxpay\database;
+
 use wxpay\WxPayException;
 
 /**

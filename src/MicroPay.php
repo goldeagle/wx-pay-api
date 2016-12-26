@@ -1,5 +1,6 @@
 <?php
 namespace wxpay;
+
 use wxpay\database\WxPayOrderQuery;
 use wxpay\database\WxPayReverse;
 
