@@ -73,7 +73,7 @@ class Index extends Controller
             $input = new WxPayUnifiedOrder();
             $input->setBody("支付 0.01 元");
             $input->setAttach("test");
-            $input->setOutTradeNo(WxPayConfig::MCHID . date("YmdHis"));
+            $input->setOutTradeNo(WxPayConfig::$MCHID . date("YmdHis"));
             $input->setTotalFee($order->money);
             $input->setTimeStart(date("YmdHis"));
             $input->setTimeExpire(date("YmdHis", time() + 600));
@@ -127,7 +127,7 @@ class Index extends Controller
             $input = new WxPayUnifiedOrder();
             $input->setBody("支付 0.01 元");
             $input->setAttach("test");
-            $input->setOutTradeNo(WxPayConfig::MCHID . date("YmdHis"));
+            $input->setOutTradeNo(WxPayConfig::$MCHID . date("YmdHis"));
             $input->setTotalFee($money * 100);
             $input->setTimeStart(date("YmdHis"));
             $input->setTimeExpire(date("YmdHis", time() + 600));
